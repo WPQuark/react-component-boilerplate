@@ -14,6 +14,7 @@ started quickly in the year 2018.
 * Create Docs on the go and publish on github.
 * Run a dev server with hot reloading.
 * Compile SCSS with PostCSS, Autoprefixer and CSSNano.
+* [Hot Reloading](https://github.com/gaearon/react-hot-loader) of React Component.
 
 ```bash
 npm install
@@ -24,4 +25,3 @@ Now edit your components from `src/js` and styles from `src/scss`.
 
 ## TODO
 
-- Add Hot Reloading of React Component.

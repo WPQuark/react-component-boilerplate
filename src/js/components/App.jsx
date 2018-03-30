@@ -13,7 +13,7 @@ class App extends React.PureComponent {
 			<div className="my-component">
 				<h1>My Awesome Component</h1>
 				<h2>This is so Awesome</h2>
-				<p><span role="img" aria-label="muscle">💪</span></p>
+				<p>I also have hot loading. haha! <span role="img" aria-label="muscle">💪</span></p>
 			</div>
 		);
 	}

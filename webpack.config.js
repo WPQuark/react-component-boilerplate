@@ -25,16 +25,16 @@ const addBanner = new webpack.BannerPlugin({
 	include: /\.(js|jsx|css)$/,
 });
 const extractSass = new ExtractTextPlugin({
-	filename: 'react-fonticonpicker.css',
+	filename: 'react-mycomponent.css',
 });
 
 
 module.exports = {
-	entry: path.join(__dirname, 'src/js/FontIconPicker.js'),
+	entry: path.join(__dirname, 'src/js/MyComponent.js'),
 	output: {
 		path: path.join(__dirname, 'dist'),
-		filename: 'react-fonticonpicker.js',
-		library: 'FontIconPicker',
+		filename: 'react-mycomponent.js',
+		library: 'MyComponent',
 		libraryTarget: 'umd',
 	},
 	externals: {
