@@ -13,6 +13,7 @@ started quickly in the year 2018.
 * Pack Library UMD style with webpack.
 * Create Docs on the go and publish on github.
 * Run a dev server with hot reloading.
+* Compile SCSS with PostCSS, Autoprefixer and CSSNano.
 
 ```bash
 npm install
